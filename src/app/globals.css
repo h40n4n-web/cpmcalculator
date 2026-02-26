@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #FFFFFF;
+  --color-surface: #F5F5F7;
+  --color-primary: #0071E3;
+  --color-primary-hover: #0077ED;
+  --color-text-1: #1D1D1F;
+  --color-text-2: #6E6E73;
+  --color-border: #D2D2D7;
+  --color-success: #34C759;
+  --color-warning: #FF9500;
+  --color-error: #FF3B30;
+  --color-primary-bg: rgba(0, 113, 227, 0.08);
+}
+
+html.dark {
+  --color-bg: #1D1D1F;
+  --color-surface: #2D2D2F;
+  --color-primary: #2997FF;
+  --color-primary-hover: #40A9FF;
+  --color-text-1: #F5F5F7;
+  --color-text-2: #A1A1A6;
+  --color-border: #424245;
+  --color-success: #30D158;
+  --color-warning: #FF9F0A;
+  --color-error: #FF453A;
+  --color-primary-bg: rgba(41, 151, 255, 0.1);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  color-scheme: light;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-1);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
