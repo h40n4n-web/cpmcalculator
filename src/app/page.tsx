@@ -1,5 +1,6 @@
 import CpmCalculator from "@/components/CpmCalculator";
 import FaqAccordion from "@/components/FaqAccordion";
+import SideNav from "@/components/SideNav";
 import ThemeToggle from "@/components/ThemeToggle";
 import { faqs } from "@/data/faqs";
 
@@ -44,11 +45,16 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <div className="mx-auto max-w-[720px] px-5 pt-4 flex justify-end">
+      <div className="mx-auto max-w-[1100px] px-3 pt-4 flex justify-end md:px-5">
         <ThemeToggle />
       </div>
 
-      <main className="mx-auto max-w-[720px] px-5 py-8 md:py-12 lg:py-16">
+      <div className="mx-auto max-w-[1100px] px-3 flex gap-4 md:px-5 md:gap-8">
+        <aside className="w-[120px] shrink-0 pt-8 md:w-[160px] lg:w-[180px] md:pt-12">
+          <SideNav />
+        </aside>
+
+        <main className="min-w-0 flex-1 py-8 md:py-12 lg:py-16">
         {/* Hero */}
         <section className="mb-12 text-center md:mb-16">
           <h1 className="mb-4 text-[28px] font-bold leading-tight tracking-tight text-text-1 md:text-4xl lg:text-[42px]">
@@ -62,12 +68,12 @@ export default function Home() {
         </section>
 
         {/* CPM Calculator */}
-        <section className="mb-12 md:mb-16">
+        <section id="calculator" className="mb-12 md:mb-16 scroll-mt-8">
           <CpmCalculator />
         </section>
 
         {/* What Is CPM? */}
-        <section className="mb-12 md:mb-16">
+        <section id="what-is-cpm" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             What Is CPM?
           </h2>
@@ -91,7 +97,7 @@ export default function Home() {
         </section>
 
         {/* How to Calculate CPM */}
-        <section className="mb-12 md:mb-16">
+        <section id="how-to-calculate" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             How to Calculate CPM
           </h2>
@@ -125,7 +131,7 @@ export default function Home() {
         </section>
 
         {/* CPM Formula Explained */}
-        <section className="mb-12 md:mb-16">
+        <section id="formula" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             CPM Formula Explained
           </h2>
@@ -161,7 +167,7 @@ export default function Home() {
         </section>
 
         {/* Why Use a CPM Calculator? */}
-        <section className="mb-12 md:mb-16">
+        <section id="why-use" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             Why Use a CPM Calculator?
           </h2>
@@ -188,7 +194,7 @@ export default function Home() {
         </section>
 
         {/* CPM vs CPC vs CPA */}
-        <section className="mb-12 md:mb-16">
+        <section id="cpm-vs-cpc-cpa" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             CPM vs CPC vs CPA
           </h2>
@@ -232,7 +238,7 @@ export default function Home() {
         </section>
 
         {/* Tips to Lower Your CPM */}
-        <section className="mb-12 md:mb-16">
+        <section id="tips" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-4 text-[22px] font-semibold text-text-1 md:text-2xl">
             Tips to Lower Your CPM
           </h2>
@@ -265,13 +271,14 @@ export default function Home() {
         </section>
 
         {/* FAQ */}
-        <section className="mb-12 md:mb-16">
+        <section id="faq" className="mb-12 md:mb-16 scroll-mt-8">
           <h2 className="mb-6 text-[22px] font-semibold text-text-1 md:text-2xl">
             Frequently Asked Questions
           </h2>
           <FaqAccordion />
         </section>
-      </main>
+        </main>
+      </div>
 
       {/* Footer */}
       <footer className="border-t border-border py-8">
