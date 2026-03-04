@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "CPM Calculator — Free Online Cost Per Mille Calculator",
   description:
     "Calculate your CPM, total ad spend, or impressions instantly with this free CPM calculator. Enter any two values and get the third — no sign-up needed.",
-  metadataBase: new URL("https://cpmcalculator.com"),
+  metadataBase: new URL("https://cpmcalculator.one"),
   alternates: { canonical: "/" },
   openGraph: {
     title: "CPM Calculator — Free Online Cost Per Mille Calculator",
     description:
       "Calculate your CPM, total ad spend, or impressions instantly with this free CPM calculator. Enter any two values and get the third — no sign-up needed.",
-    url: "https://cpmcalculator.com",
+    url: "https://cpmcalculator.one",
     siteName: "CPM Calculator",
     type: "website",
     locale: "en_US",

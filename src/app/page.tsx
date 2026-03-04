@@ -22,7 +22,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "CPM Calculator",
-    url: "https://cpmcalculator.com",
+    url: "https://cpmcalculator.one",
     description:
       "Calculate your CPM, total ad spend, or impressions instantly with this free CPM calculator.",
     applicationCategory: "BusinessApplication",

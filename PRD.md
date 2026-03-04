@@ -4,7 +4,7 @@
 
 | 项 | 值 |
 |---|---|
-| 域名 | cpmcalculator.com |
+| 域名 | cpmcalculator.one |
 | 技术栈 | Next.js (App Router) + TypeScript + Tailwind CSS |
 | 核心关键词 | cpm calculator |
 | 网站语言 | 英文 |

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — CPM Calculator",
-  description: "Privacy policy for cpmcalculator.com.",
+  description: "Privacy policy for cpmcalculator.one.",
 };
 
 export default function PrivacyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
           Last updated: January 2025
         </p>
         <p>
-          cpmcalculator.com (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;)
+          cpmcalculator.one (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;)
           operates this website. This page informs you of our policies regarding the
           collection, use, and disclosure of personal information.
         </p>

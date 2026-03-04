@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service — CPM Calculator",
-  description: "Terms of service for cpmcalculator.com.",
+  description: "Terms of service for cpmcalculator.one.",
 };
 
 export default function TermsPage() {
@@ -14,7 +14,7 @@ export default function TermsPage() {
           Last updated: January 2025
         </p>
         <p>
-          By accessing and using cpmcalculator.com, you agree to the following terms and
+          By accessing and using cpmcalculator.one, you agree to the following terms and
           conditions.
         </p>
         <h2 className="text-xl font-semibold text-text-1 pt-4">Use of Service</h2>
@@ -26,7 +26,7 @@ export default function TermsPage() {
         </p>
         <h2 className="text-xl font-semibold text-text-1 pt-4">Limitation of Liability</h2>
         <p>
-          cpmcalculator.com shall not be liable for any decisions made based on the
+          cpmcalculator.one shall not be liable for any decisions made based on the
           calculator output. Use at your own risk.
         </p>
         <h2 className="text-xl font-semibold text-text-1 pt-4">Changes</h2>
