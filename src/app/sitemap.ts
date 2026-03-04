@@ -9,13 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: "https://cpmcalculator.com/privacy",
+      url: "https://cpmcalculator.one/privacy",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
-      url: "https://cpmcalculator.com/terms",
+      url: "https://cpmcalculator.one/terms",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
